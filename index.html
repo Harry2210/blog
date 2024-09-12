@@ -22,7 +22,7 @@
         <nav>
             <ul>
                 
-                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html" class="active">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -31,33 +31,7 @@
 
     <!-- Main Content Section -->
     <main>
-        <div id="timer">10</div>
-
-    <script>
-        // Set the countdown duration (in seconds)
-        var countdownDuration = 10;
         
-        // Function to update the countdown
-        function updateCountdown() {
-            var timerElement = document.getElementById('timer');
-            var remainingTime = countdownDuration;
-
-            // Update the timer every second
-            var interval = setInterval(function() {
-                remainingTime--;
-                timerElement.textContent = remainingTime;
-
-                // When the countdown reaches 0, clear the interval and redirect
-                if (remainingTime <= 0) {
-                    clearInterval(interval);
-                    window.location.href = 'https://www.hotflix.icu/home';
-                }
-            }, 1000);
-        }
-
-        // Start the countdown
-        updateCountdown();
-    </script>
         <div class="content-container">
             <!-- Blog Posts Section -->
             <section class="blog-posts">
